@@ -1,29 +1,29 @@
-! [Versi髇 m醩 reciente] (https://img.shields.io/pypi/v/pydiq.svg)] (https://pypi.python.org/pypi/pydiq/)
+! [Versi贸n m谩s reciente] (https://img.shields.io/pypi/v/pydiq.svg)] (https://pypi.python.org/pypi/pydiq/)
 [! [Licencia] (https://img.shields.io/pypi/l/pydiq.svg)] (https://pypi.python.org/pypi/pydiq/)
 [! [DOI] (https://zenodo.org/badge/3862/janpipek/pydiq.png)] (http://dx.doi.org/10.5281/zenodo.11480)
 
 pydiq
 =====
-Sencillo navegador / visor DICOM multiplataforma de c骴igo abierto en Python y Qt.
+Sencillo navegador / visor DICOM multiplataforma de c贸digo abierto en Python y Qt.
 
 Caracteristicas
 --------
 
-* Visualizaci髇 f醕il (y r醦ida) de todas las im醙enes en un directorio
+* Visualizaci贸n f谩cil (y r谩pida) de todas las im谩genes en un directorio
 * Zoom (1: N y N: 1)
 * Control del mouse del centro de la ventana y el ancho (como en Aeskulap Viewer)
-* Medici髇 adecuada de las unidades de Hounsfield y posici髇 con el mouse.
-* Exportaci髇 de im醙enes PNG
+* Medici贸n adecuada de las unidades de Hounsfield y posici贸n con el mouse.
+* Exportaci贸n de im谩genes PNG
 
 Acciones
 -----
 
 * Mejor zoom
-* Mejor soporte de im醙enes de resonancia magn閠ica
-* Soporte de im醙enes de dosis RT
+* Mejor soporte de im谩genes de resonancia magn茅tica
+* Soporte de im谩genes de dosis RT
 * Ver en diferentes planos (rectangular + otros).
-* Mapeo de coordenadas (utilizando la matriz de traducci髇 y rotaci髇)
-* Informaci髇 del archivo DICOM en una pantalla f醕il de usar.
+* Mapeo de coordenadas (utilizando la matriz de traducci贸n y rotaci贸n)
+* Informaci贸n del archivo DICOM en una pantalla f谩cil de usar.
 
 Dependencias
 ------------
@@ -59,7 +59,7 @@ wheel         0.33.4
 
 Probado en Linux y Windows.
 
-Instalaci髇
+Instalaci贸n
 ------------
 
 1- Crear carpeta donde se alojara el codigo
@@ -68,12 +68,12 @@ sudo mkdir Dicom
 
 2- Crear entorno virtual para la ejecucion de la aplicacion
 
-# cd Dicom
-# virtualenv -p python3.7 EntornoDicom
+##### cd Dicom
+##### virtualenv -p python3.7 EntornoDicom
 
 Activamos el entorno:
 
-# cd EntornoDicom
+##### cd EntornoDicom
 EntornoDicom# source bin/activate
 
 Una vez activado el entorno procedemos a alojarnos en la carpeta creada anteriormente
@@ -101,6 +101,6 @@ Ejecutamos la aplicacion mediante:
 Limitaciones
 -----------
 
-Actualmente, el visor solo admite radiograf韆 computarizada (CR), tomograf韆 computarizada (CT) y
-Im醙enes de resonancia magn閠ica (MRI) con orientaci髇 normal (x, y, z)
-en formato de una porci髇 por archivo.
+Actualmente, el visor solo admite radiograf铆a computarizada (CR), tomograf铆a computarizada (CT) y
+Im谩genes de resonancia magn茅tica (MRI) con orientaci贸n normal (x, y, z)
+en formato de una porci贸n por archivo.
