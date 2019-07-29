@@ -1,0 +1,27 @@
+Package       Version    
+
+------------- -----------
+
+dicom         0.9.9.post1
+
+Jinja2        2.5        
+
+numpy         1.17.0     
+
+pip           19.2.1     
+
+pkg-resources 0.0.0      
+
+pydic         1.0.0      
+
+pydiq         0.2.1      
+
+PyQt5         5.13.0     
+
+PyQt5-sip     4.19.18    
+
+QtPy          1.9.0      
+
+setuptools    41.0.1     
+
+wheel         0.33.4     
