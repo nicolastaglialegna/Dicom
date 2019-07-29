@@ -81,18 +81,18 @@ Una vez activado el entorno procedemos a alojarnos en la carpeta creada anterior
 (EntornoDicom)Dicom/EntornoDicom# cd..
 (EntornoDicom)Dicom# 
 
-descargamos el repositorio https://github.com/nicolastaglialegna/App-dicom.git
+descargamos el repositorio https://github.com/nicolastaglialegna/Dicom.git
 
-(EntornoDicom)Dicom#  git clone https://github.com/nicolastaglialegna/App-dicom
+(EntornoDicom)Dicom#  git clone https://github.com/nicolastaglialegna/Dicom.git
 
 Ingresamos a la carpeta descargada
 
-(EntornoDicom)Dicom# cd App-dicom
-(EntornoDicom)Dicom/App-dicom# cd pydiq-master
+(EntornoDicom)Dicom# cd Dicom
+(EntornoDicom)Dicom/Dicom# cd pydiq-master
 
 Instalamos las librerias necesarias para su funcionamiento
-(EntornoDicom)Dicom/App-dicom/pydiq-master# pip install -r instalacion.txt
-(EntornoDicom)Dicom/App-dicom/pydiq-master# pip install pydiq
+(EntornoDicom)Dicom/Dicom/pydiq-master# pip install -r instalacion.txt
+(EntornoDicom)Dicom/Dicom/pydiq-master# pip install pydiq
 
 Ejecutamos la aplicacion mediante:
 (EntornoDicom)Dicom/App-dicom/pydiq-master# python run.py
